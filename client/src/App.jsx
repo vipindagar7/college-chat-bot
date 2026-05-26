@@ -8,6 +8,7 @@ import AdminDashboard from './components/admin/AdminDashboard';
 
 function ChatApp() {
   const { isAuth } = useAuth();
+
   return (
     <div className="h-screen w-screen overflow-hidden">
       {isAuth ? <ChatInterface /> : <AuthFlow />}
@@ -16,29 +17,45 @@ function ChatApp() {
 }
 
 function AdminApp() {
-  const [tok, setTok] = useState(() => sessionStorage.getItem('ab_admin_tok'));
+
+  const [tok, setTok] = useState(() =>
+    sessionStorage.getItem('ab_admin_tok')
+  );
 
   const login = (token) => {
+
     setTok(token);
+
     sessionStorage.setItem('ab_admin_tok', token);
   };
+
   const logout = () => {
+
     setTok(null);
+
     sessionStorage.removeItem('ab_admin_tok');
   };
 
   if (!tok) return <AdminLogin onLogin={login} />;
+
   return <AdminDashboard token={tok} onLogout={logout} />;
 }
 
 export default function App() {
+
   return (
     <AuthProvider>
+
       <Routes>
-        <Route path="/" element={<ChatApp />} />
-        <Route path="/admin" element={<AdminApp />} />
-        <Route path="*" element={<Navigate to="/" />} />
+
+        <Route index element={<ChatApp />} />
+
+        <Route path="admin" element={<AdminApp />} />
+
+        <Route path="*" element={<Navigate to="." replace />} />
+
       </Routes>
+
     </AuthProvider>
   );
 }
