@@ -1,0 +1,288 @@
+{
+  "college": {
+    "name": "ABC College of Technology",
+    "tagline": "Shaping Tomorrow's Leaders",
+    "phone": "+91-9876543210",
+    "email": "admissions@abccollege.edu.in",
+    "address": "123 Education Lane, Tech City, Maharashtra - 411001",
+    "website": "https://abccollege.edu.in",
+    "established": 2007,
+    "accreditation": "NBA Approved | AICTE Approved"
+  },
+  "courses": [
+    {
+      "id": "btech-cs",
+      "name": "B.Tech Computer Science",
+      "shortName": "B.Tech CS",
+      "duration": "4 Years",
+      "seats": 120,
+      "annualFee": 95000,
+      "eligibility": "10+2 with PCM, minimum 60%",
+      "description": "Covers software engineering, AI/ML, data science, and cloud computing."
+    },
+    {
+      "id": "btech-it",
+      "name": "B.Tech Information Technology",
+      "shortName": "B.Tech IT",
+      "duration": "4 Years",
+      "seats": 60,
+      "annualFee": 90000,
+      "eligibility": "10+2 with PCM, minimum 55%",
+      "description": "Focus on networking, cybersecurity, web technologies, and enterprise systems."
+    },
+    {
+      "id": "bca",
+      "name": "BCA (Bachelor of Computer Applications)",
+      "shortName": "BCA",
+      "duration": "3 Years",
+      "seats": 60,
+      "annualFee": 65000,
+      "eligibility": "10+2 with Mathematics, minimum 50%",
+      "description": "Industry-focused program with web development and mobile apps specialization."
+    },
+    {
+      "id": "mca",
+      "name": "MCA (Master of Computer Applications)",
+      "shortName": "MCA",
+      "duration": "2 Years",
+      "seats": 30,
+      "annualFee": 80000,
+      "eligibility": "BCA/B.Sc. Computer Science, minimum 55%",
+      "description": "Advanced computing with research and industry project focus."
+    },
+    {
+      "id": "mba",
+      "name": "MBA (Master of Business Administration)",
+      "shortName": "MBA",
+      "duration": "2 Years",
+      "seats": 60,
+      "annualFee": 110000,
+      "eligibility": "Any Graduate with 50%, CAT/MAT/CMAT score",
+      "description": "Finance, Marketing, HR, and IT specializations with industry integration."
+    },
+    {
+      "id": "bsc-ds",
+      "name": "B.Sc. Data Science",
+      "shortName": "B.Sc. DS",
+      "duration": "3 Years",
+      "seats": 40,
+      "annualFee": 70000,
+      "eligibility": "10+2 with Math/Stats, minimum 55%",
+      "description": "Data analytics, machine learning, and business intelligence program."
+    }
+  ],
+  "scholarships": [
+    {
+      "name": "Merit",
+      "criteria": "90%+ in 12th Board Exams",
+      "benefit": "50% fee waiver for first year",
+      "renewable": true
+    },
+    {
+      "name": "Sports Excellence Award",
+      "criteria": "State or National level sports achievement",
+      "benefit": "25% fee waiver",
+      "renewable": false
+    },
+    {
+      "name": "SC/ST/OBC Scholarship",
+      "criteria": "Government category certificates",
+      "benefit": "As per government norms",
+      "renewable": true
+    },
+    {
+      "name": "Single Girl Child",
+      "criteria": "Single girl child in family",
+      "benefit": "20% fee waiver",
+      "renewable": true
+    },
+    {
+      "name": "Alumni Ward",
+      "criteria": "Parent/sibling is ABC College alumni",
+      "benefit": "10% fee concession",
+      "renewable": false
+    }
+  ],
+  "hostel": {
+    "available": true,
+    "boys": {
+      "seats": 200,
+      "annualFee": 75000,
+      "facilities": [
+        "Wi-Fi",
+        "AC Rooms",
+        "Mess",
+        "Laundry",
+        "Gym",
+        "24x7 Security",
+        "Study Room"
+      ]
+    },
+    "girls": {
+      "seats": 150,
+      "annualFee": 80000,
+      "facilities": [
+        "Wi-Fi",
+        "AC Rooms",
+        "Mess",
+        "Laundry",
+        "24x7 Security",
+        "CCTV",
+        "Warden on premises"
+      ]
+    },
+    "messCharges": "Included in hostel fee",
+    "note": "First come first served. Apply at admission office."
+  },
+  "placements": {
+    "averagePackage": "6.5 LPA",
+    "highestPackage": "32 LPA",
+    "placementRate": "94%",
+    "placedStudents": 342,
+    "companies": 87,
+    "topRecruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Cognizant",
+      "HCL",
+      "Accenture",
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Deloitte"
+    ]
+  },
+  "admissionProcess": [
+    "Fill online application form at abccollege.edu.in",
+    "Upload required documents (marksheets, ID proof, photo)",
+    "Pay application fee of ₹500 online",
+    "Merit list published within 7 working days",
+    "Attend counseling session (online or in-person)",
+    "Pay admission fee to confirm your seat",
+    "Complete document verification at campus"
+  ],
+  "importantDates": {
+    "applicationStart": "April 1, 2025",
+    "applicationEnd": "June 30, 2025",
+    "firstMeritList": "July 10, 2025",
+    "admissionDeadline": "July 31, 2025",
+    "classesBegin": "August 1, 2025"
+  },
+  "documentsRequired": [
+    "10th Mark Sheet (Original + 2 copies)",
+    "12th Mark Sheet (Original + 2 copies)",
+    "Transfer Certificate",
+    "Migration Certificate (if applicable)",
+    "Character Certificate",
+    "Passport Size Photographs (6 copies)",
+    "Aadhar Card (Original + 2 copies)",
+    "Category Certificate (SC/ST/OBC if applicable)",
+    "Income Certificate (for scholarship)",
+    "Gap Certificate (if applicable)"
+  ],
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Is there any entrance exam?",
+      "answer": "No entrance exam required. Admission is merit-based on 12th board marks. MBA requires CAT/MAT/CMAT score.",
+      "keywords": [
+        "entrance",
+        "exam",
+        "test",
+        "merit",
+        "entrance exam"
+      ]
+    },
+    {
+      "id": "faq2",
+      "question": "Can I pay fees in installments?",
+      "answer": "Yes! Fees can be paid in 2 installments per semester. Education loans are also facilitated through our finance cell.",
+      "keywords": [
+        "installment",
+        "emi",
+        "loan",
+        "payment",
+        "pay"
+      ]
+    },
+    {
+      "id": "faq3",
+      "question": "Is the college affiliated to a university?",
+      "answer": "Yes, we are affiliated to Mumbai University and approved by AICTE and UGC.",
+      "keywords": [
+        "affiliated",
+        "university",
+        "recognition",
+        "approved",
+        "aicte",
+        "ugc"
+      ]
+    },
+    {
+      "id": "faq4",
+      "question": "Can I visit campus before admission?",
+      "answer": "Absolutely! Campus visits are available Monday–Saturday, 10 AM to 4 PM. Call +91-9876543210 to schedule.",
+      "keywords": [
+        "visit",
+        "campus",
+        "tour",
+        "see",
+        "come"
+      ]
+    },
+    {
+      "id": "faq5",
+      "question": "What are the library facilities?",
+      "answer": "Our library has 50,000+ books, e-library access, 24x7 reading room, and subscriptions to IEEE, Springer, and Elsevier journals.",
+      "keywords": [
+        "library",
+        "books",
+        "reading",
+        "journals",
+        "resources"
+      ]
+    },
+    {
+      "id": "faq6",
+      "question": "Is there a placement guarantee?",
+      "answer": "We have 94% placement rate. Our dedicated placement cell works with 87+ companies. Top package this year was 32 LPA from Google.",
+      "keywords": [
+        "placement guarantee",
+        "job guarantee",
+        "100% placement"
+      ]
+    },
+    {
+      "id": "faq7",
+      "question": "What is the application fee?",
+      "answer": "The application fee is ₹500, payable online. This is non-refundable.",
+      "keywords": [
+        "application fee",
+        "registration fee",
+        "form fee",
+        "apply fee"
+      ]
+    },
+    {
+      "id": "faq8",
+      "question": "Do you provide education loans?",
+      "answer": "Yes, we have tie-ups with SBI, HDFC, and Axis Bank for education loans. Our finance cell will guide you through the process.",
+      "keywords": [
+        "loan",
+        "education loan",
+        "bank loan",
+        "finance",
+        "sbi",
+        "hdfc"
+      ]
+    }
+  ],
+  "theme": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#7C3AED",
+    "botName": "EduBot",
+    "welcomeMessage": "Hi! 👋 I'm EduBot, your Admission Assistant for ABC College.\n\nI can answer your questions about courses, fees, scholarships, hostel, placements, and more. How can I help you today?",
+    "offlineMessage": "Our office is currently closed. Please call +91-9876543210 or email admissions@abccollege.edu.in. We'll respond within 24 hours."
+  }
+}
