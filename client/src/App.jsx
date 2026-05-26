@@ -50,7 +50,7 @@ export default function App() {
 
         <Route index element={<ChatApp />} />
 
-        <Route path="admin" element={<AdminApp />} />
+        <Route path="/admin" element={<AdminApp />} />
 
         <Route path="*" element={<Navigate to="." replace />} />
 
