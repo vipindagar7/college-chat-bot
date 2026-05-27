@@ -4,35 +4,64 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ABC College — Admissions 2025</title>
+
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
-    h1 { color: #2563EB; }
-    p { color: #555; line-height: 1.6; }
-    .box { background: #f0f7ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 20px; margin-top: 20px; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2563EB;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .box {
+      background: #f0f7ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+    }
   </style>
 </head>
+
 <body>
+
   <h1>ABC College of Technology</h1>
-  <p>Welcome to ABC College Admissions 2025. We offer B.Tech, BCA, MCA, MBA and more programs.</p>
+
+  <p>
+    Welcome to ABC College Admissions 2025.
+    We offer B.Tech, BCA, MCA, MBA and more programs.
+  </p>
+
   <div class="box">
     <h3>💬 Chat with our Admission Assistant</h3>
-    <p>Click the blue chat button in the bottom-right corner to talk to our AI admission chatbot!</p>
+    <p>
+      Click the blue chat button in the bottom-right corner
+      to talk to our AI admission chatbot!
+    </p>
   </div>
 
-  <!--
-    ════════════════════════════════════════════════════════
-    EMBED THE CHATBOT — Copy these 2 script tags to your
-    PHP/HTML website. Replace the URLs with your actual server.
-    ════════════════════════════════════════════════════════
-  -->
   <script>
     window.ChatBotConfig = {
       widgetId: "college_abc",
-      apiBase: "http://localhost:5000",     // ← your backend URL
-      chatUrl: "http://localhost:5173"      // ← your frontend URL
+
+      // Production API URL
+      apiBase: "https://chatbot.eitfaridabad.co.in/chatbot-api",
+
+      // Production frontend/chat URL
+      chatUrl: "https://chatbot.eitfaridabad.co.in"
     };
   </script>
-  <script src="http://localhost:5000/widget.js"></script>
+
+  <script src="https://chatbot.eitfaridabad.co.in/chatbot-api/widget.js"></script>
 
 </body>
 </html>

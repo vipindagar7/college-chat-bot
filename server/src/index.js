@@ -35,12 +35,20 @@ app.use('/admin', adminRoutes);
 // Serve widget.js
 app.get('/widget.js', (_, res) => {
   try {
-    const file = readFileSync(join(__dirname, '../../widget/widget.js'), 'utf-8');
+    const widgetPath = join(__dirname, '../widget/widget.js');
+
+    console.log('Widget path:', widgetPath);
+
+    const file = readFileSync(widgetPath, 'utf-8');
+
     res.setHeader('Content-Type', 'application/javascript');
     res.setHeader('Cache-Control', 'public, max-age=3600');
     res.setHeader('Access-Control-Allow-Origin', '*');
+
     res.send(file);
-  } catch {
+  } catch (err) {
+    console.error(err);
+
     res.status(404).send('// Widget not found');
   }
 });
