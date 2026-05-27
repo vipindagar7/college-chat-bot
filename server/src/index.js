@@ -35,7 +35,7 @@ app.use('/admin', adminRoutes);
 // Serve widget.js
 app.get('/widget.js', (_, res) => {
   try {
-    const widgetPath = join(__dirname, '../widget/widget.js');
+    const widgetPath = join(__dirname, '../../widget/widget.js');
 
     console.log('Widget path:', widgetPath);
 
