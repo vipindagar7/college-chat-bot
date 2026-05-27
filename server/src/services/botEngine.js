@@ -155,7 +155,7 @@ export const getBotResponse = (message) => {
     case 'hostel': {
       const h = data.hostel;
       return {
-        text: `🏠 **Hostel Facilities:**\n\n🔵 **Boys Hostel**\n   Seats: ${h.boys.seats} | Fee: ₹${Number(h.boys.annualFee).toLocaleString('en-IN')}/year\n   Facilities: ${h.boys.facilities.join(', ')}\n\n🔴 **Girls Hostel**\n   Seats: ${h.girls.seats} | Fee: ₹${Number(h.girls.annualFee).toLocaleString('en-IN')}/year\n   Facilities: ${h.girls.facilities.join(', ')}\n\n🍽️ Mess: ${h.messCharges}\n📌 ${h.note}`,
+        text: `🏠 **Hostel Facilities:**\n\n🔵 **Boys Hostel**\n   Seats: ${h.boys.seats} \n   Facilities: ${h.boys.facilities.join(', ')}\n\n🔴 **Girls Hostel**\n   Seats: ${h.girls.seats} \n   Facilities: ${h.girls.facilities.join(', ')}\n\n🍽️ Mess: ${h.messCharges}\n📌 ${h.note}`,
         type: 'text',
       };
     }
