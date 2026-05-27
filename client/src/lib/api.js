@@ -22,7 +22,7 @@ const apiPath = (path) => {
     // production — use /chatbot-api prefix
     return `/chatbot-api${path}`;
   }
-  return `${base}/api${path}`;
+  return `${base}/${path}`;
 };
 
 const h = (tok) => ({
