@@ -97,7 +97,7 @@ export default function ChatInterface() {
           setSid(r.sessionId);
           setMsgs([{
             role: 'bot',
-            message: `Hi ${user?.name?.split(' ')[0]}! 👋 Welcome to **ABC College** Admission Assistant.\n\nI can help you with courses, fees, scholarships, hostel, placements, and the admission process.\n\nWhat would you like to know?`,
+            message: `Hi ${user?.name?.split(' ')[0]}! 👋 Welcome to **ECHELON INSTITUTE OF TECHNOLOGY** Admission Assistant.\n\nI can help you with courses, fees, scholarships, hostel, placements, and the admission process.\n\nWhat would you like to know?`,
             createdAt: new Date(),
           }]);
         }

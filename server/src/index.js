@@ -28,9 +28,9 @@ app.use(express.json({ limit: '1mb' }));
 app.use(generalLimiter);
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/chat', chatRoutes);
-app.use('/api/admin', adminRoutes);
+app.use('/auth', authRoutes);
+app.use('/chat', chatRoutes);
+app.use('/admin', adminRoutes);
 
 // Serve widget.js
 app.get('/widget.js', (_, res) => {
@@ -46,7 +46,7 @@ app.get('/widget.js', (_, res) => {
 });
 
 // Public college config (theme only — no sensitive data)
-app.get('/api/config', (req, res) => {
+app.get('/config', (req, res) => {
   try {
     const data = JSON.parse(readFileSync(join(__dirname, './data/college-data.json'), 'utf-8'));
     res.json({ theme: data.theme, college: { name: data.college.name, phone: data.college.phone } });

@@ -27,7 +27,7 @@ export default function AdminLogin({ onLogin }) {
             <GraduationCap className="w-7 h-7 text-white" />
           </div>
           <h1 className="text-xl font-bold text-gray-800">Admin Login</h1>
-          <p className="text-gray-500 text-sm mt-1">ABC College · Chatbot Admin</p>
+          <p className="text-gray-500 text-sm mt-1">ECHELON INSTITUTE OF TECHNOLOGY · Chatbot Admin</p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>

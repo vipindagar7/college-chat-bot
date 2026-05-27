@@ -49,7 +49,7 @@ export default function AuthFlow() {
         <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
           <GraduationCap className="w-8 h-8 text-white" />
         </div>
-        <h1 className="text-xl font-bold">ABC College</h1>
+        <h1 className="text-xl font-bold">ECHELON INSTITUTE OF TECHNOLOGY</h1>
         <p className="text-blue-200 text-sm mt-0.5">Admission Assistant</p>
       </div>
 
