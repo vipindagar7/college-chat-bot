@@ -196,7 +196,7 @@ export default function ChatInterface() {
       </div>
 
       {/* Quick Actions */}
-      {msgs.length <= 1 && (
+      { (
         <div className="flex-shrink-0 px-3 pt-2 pb-1 bg-white border-t border-gray-100">
           <p className="text-[11px] text-gray-400 mb-1.5 px-1">Quick questions</p>
           <div className="flex gap-1.5 overflow-x-auto pb-1.5 scrollbar-hide">

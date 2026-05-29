@@ -163,7 +163,7 @@ export const getBotResponse = (message) => {
     case 'placements': {
       const p = data.placements;
       return {
-        text: `💼 **Placement Statistics:**\n\n• 💰 Average Package: **${p.averagePackage}**\n• 🏆 Highest Package: **${p.highestPackage}**\n• 🏢 Companies: **${p.companies}+**\n• 👨‍🎓 Students Placed: **${p.placedStudents}**\n\n**Top Recruiters:**\n${p.topRecruiters.map(r => `• ${r}`).join('\n')}`,
+        text: `💼 **Placement Statistics:**\n\n• 💰 Average Package: **${p.averagePackage}**\n• 🏆 Highest Package: **${p.highestPackage}**\n• 🏢 Companies: **${p.companies}+ **\n• 👨‍🎓 Students Placed: **${p.placedStudents}**\n\n**Top Recruiters:**\n${p.topRecruiters.map(r => `• ${r}`).join('\n')}`,
         type: 'text',
       };
     }
