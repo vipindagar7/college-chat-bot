@@ -1,14 +1,14 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import {
   Send, GraduationCap, Minimize2, Loader2, Bot, User,
-  BookOpen, indianRupee, Award, Home, TrendingUp, FileText, ExternalLink, Headphones
+  BookOpen, IndianRupee, Award, Home, TrendingUp, FileText, ExternalLink, Headphones
 } from 'lucide-react';
 import { api } from '../../lib/api';
 import { useAuth } from '../../context/AuthContext';
 
 const QUICK = [
   { label: 'Courses', icon: BookOpen, msg: 'courses' },
-  { label: 'Fee Structure', icon: indianRupee, msg: 'fees' },
+  { label: 'Fee Structure', icon: IndianRupee, msg: 'fees' },
   { label: 'Scholarships', icon: Award, msg: 'scholarship' },
   { label: 'Hostel', icon: Home, msg: 'hostel' },
   { label: 'Placements', icon: TrendingUp, msg: 'placements' },
