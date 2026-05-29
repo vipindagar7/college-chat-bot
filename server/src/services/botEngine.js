@@ -238,7 +238,7 @@ export const getBotResponse = (message) => {
 const courseDetail = (c, data) => {
   if (!c) return { text: `Course not found. Type **"courses"** to see all available programs.`, type: 'text' };
   return {
-    text: `📚 **${c.name}**\n\n• ⏱️ Duration: **${c.duration}**\n• 💰 Annual Fee: **₹${Number(c.annualFee).toLocaleString('en-IN')}**\n• 🪑 Seats: **${c.seats}**\n• ✅ Eligibility: ${c.eligibility}\n\n📖 ${c.description}\n\nWant to know about **scholarships** or **how to apply**?`,
+    text: `📚 **${c.name}**\n\n• ⏱️ Duration: **${c.duration}**\n• 🪑 Seats: **${c.seats}**\n• ✅ Eligibility: ${c.eligibility}\n\n📖 ${c.description}\n\nWant to know about **scholarships** or **how to apply**?`,
     type: 'text',
   };
 };
